@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Marketing Analytics Project - Emmanuel Gbafore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f9fafb;
+      color: #333;
+    }
+
+    header {
+      background-color: #1e293b;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h1 {
+      color: #007acc;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      color: #0f172a;
+    }
+
+    p, li {
+      line-height: 1.6;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .toggle-btn {
+      background-color: #0ea5e9;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 1rem;
+      background: #e2e8f0;
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div><strong>Emmanuel Gbafore</strong></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../resume.pdf" target="_blank">Resume</a>
+      <a href="mailto:egbafore@gmail.com">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>📊 ShopEasy Marketing Analytics Project</h1>
+
+    <p>
+      This project supports <strong>ShopEasy</strong>, an e-commerce brand facing declining engagement and conversion rates.
+      It applies <strong>SQL, Python, and Power BI</strong> to uncover insights and guide targeted marketing strategies.
+    </p>
+
+    <h2>🧩 Tools Used</h2>
+    <ul>
+      <li>SQL for querying and data cleaning</li>
+      <li>Python for statistical tests, sentiment analysis and predictive analysis</li>
+      <li>Power BI for dashboards and visual storytelling</li>
+    </ul>
+
+    <h2>📌 Key Steps</h2>
+    <button class="toggle-btn" onclick="toggleDetails()">Toggle Detailed Steps</button>
+    <ol id="details" class="hidden">
+      <li>Imported and cleaned data in SQL</li>
+      <li>Performed statistical tests (t-test and two way Anova test) in Python.</li>
+      <li>Performed sentiment analysis on reviews in Python</li>
+      <li>Segmented customers by age groups for tailored campaigns in SQL</li>
+      <li>Built Power BI dashboards with KPIs and filterable visuals</li>
+    </ol>
+
+    <h2>📷 Snapshots</h2>
+    <p>Click each image to view it in full screen.</p>
+    <a href="../images/powerbi_dashboard_overview.png" target="_blank">
+      <img src="../images/powerbi_dashboard_overview.png" alt="Power BI Dashboard Overview Screenshot">
+    </a>
+    <a href="../images/powerbi_data_storytelling.png" target="_blank">
+      <img src="../images/powerbi_data_storytelling.png" alt="Power BI Data Storytelling Screenshot">
+    </a>
+    <a href="../images/powerbi_age_and_gender.png" target="_blank">
+      <img src="../images/powerbi_age_and_gender.png" alt="Power BI Age and Gender Screenshot">
+    </a>
+    <a href="../images/powerbi_customer_geography.png" target="_blank">
+      <img src="../images/powerbi_customer_geography.png" alt="Power BI Customer Geography Screenshot">
+    </a>
+    <a href="../images/python_predictive_analysis_code_snippet.png" target="_blank">
+      <img src="../images/python_predictive_analysis_code_snippet.png" alt="Python Predictive Analysis Code Snippet Screenshot">
+    </a>
+    <a href="../images/sql_query.png" target="_blank">
+      <img src="../images/sql_query.png" alt="SQL Query Screenshot">
+    </a>
+    <a href="../images/predicted_review_trend.png" target="_blank">
+      <img src="../images/predicted_review_trend.png" alt="Predicted Review Trend Screenshot">
+    </a>
+
+    <h2>💡 Outcome</h2>
+<p>
+  Based on the insights from this project, the marketing team developed three targeted campaigns.  
+  These hypothetical efforts suggest a potential improvement in funnel conversion by <strong>12%</strong> within two quarters.
+</p>
+
+
+    <p><a href="../index.html">← Back to Portfolio Home</a></p>
+  </div>
+
+  <footer>
+    Contact: <a href="mailto:egbafore@gmail.com">egbafore@gmail.com</a> |
+    <a href="https://github.com/EmmanuelGbafore" target="_blank">GitHub</a>
+  </footer>
+
+  <script>
+    function toggleDetails() {
+      const details = document.getElementById("details");
+      details.classList.toggle("hidden");
+    }
+  </script>
+
+</body>
+</html>
