@@ -1,11 +1,115 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <title>Emmanuel Gbafore Portfolio</title>
+  <meta charset="UTF-8" />
+  <title>Emmanuel Gbafore | Data Analyst Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+    header {
+      background-color: #1e293b;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    h1 {
+      color: #0066cc;
+    }
+    a {
+      text-decoration: none;
+      color: #0066cc;
+    }
+    .btn {
+      background-color: #0ea5e9;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    .project {
+      margin-top: 30px;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 1rem;
+      background: #e2e8f0;
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to My Portfolio!</h1>
-  <p>Projects hosted here will be updated soon.</p>
+
+  <header>
+    <div><strong>Emmanuel Gbafore</strong></div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/MarketingAnalyticsProject/">Projects</a>
+      <a href="/resume.pdf" target="_blank">Resume (pending)</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>👋 Hi, I'm Emmanuel Gbafore</h1>
+    <p>
+      I specialize in transforming raw data into clear, actionable insights using 
+      <strong>SQL, Python, Power BI, Tableau and Excel</strong>. With expertise in 
+      <strong>statistical analysis</strong> and <strong>predictive modeling</strong>, 
+      I help businesses make informed decisions through compelling data storytelling and 
+      robust analytics solutions to extract insights and create compelling data stories.
+    </p>
+
+    <h2>🧠 Portfolio Projects</h2>
+
+    <div class="project">
+      <h3><a href="MarketingAnalyticsProject/index.html">📊 Marketing Analytics: ShopEasy Case Study</a></h3>
+      <p>
+        An end-to-end data project analyzing engagement and conversion using SQL, Python, and Power BI.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3><a href="#">🔧 Predictive Maintenance (Coming Soon)</a></h3>
+      <p>
+        Using time-series analysis to detect early warning signs of equipment failure.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3><a href="#">🌍 Energy Planning with OSeMOSYS (Coming Soon)</a></h3>
+      <p>
+        Modeling sustainable energy transitions using OSeMOSYS and FlexTool.
+      </p>
+    </div>
+
+    <a class="btn" href="/resume.pdf" target="_blank">📄 Download My Resume</a>
+  </div>
+
+  <footer>
+    Contact: <a href="mailto:egbafore@gmail.com">egbafore@gmail.com</a> |
+    <a href="https://github.com/EmmanuelGbafore" target="_blank">GitHub Profile</a>
+  </footer>
+
 </body>
 </html>
